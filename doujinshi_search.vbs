@@ -60,6 +60,7 @@ Sub search_melonbooks(name)
 
     ie.Document.getElementsByClassName("submit submit_small")(0).Click
     waitIE ie
+
 End Sub
 
 Sub search_comic_zin(name)
